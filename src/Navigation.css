@@ -1,0 +1,31 @@
+/* Default style for navigation links */
+.nav-link {
+  font-size: 1rem; /* Default font size for the links */
+  padding: 0.5rem 1rem; /* Padding around the links */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Responsive size adjustments */
+@media (max-width: 576px) {
+  /* For small screens (mobile devices) */
+  .nav-link {
+    font-size: 0.9rem; /* Smaller font size */
+    padding: 0.4rem 0.8rem; /* Smaller padding */
+  }
+}
+
+@media (max-width: 768px) {
+  /* For tablets */
+  .nav-link {
+    font-size: 1rem; /* Font size for medium screens */
+    padding: 0.5rem 1rem; /* Adjust padding */
+  }
+}
+
+@media (min-width: 992px) {
+  /* For larger screens (desktops) */
+  .nav-link {
+    font-size: 1.2rem; /* Larger font size */
+    padding: 0.6rem 1.2rem; /* Larger padding */
+  }
+}
