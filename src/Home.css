@@ -1,35 +1,80 @@
+/* Main Hero Section */
 .home-section {
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    color: white;
-    padding: 100px 0;
-  }
-  
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  padding: 80px 15px; /* Adjusted padding for better spacing on mobile */
+}
+
+.home-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center; /* Centered heading */
+}
+
+.home-section h2 {
+  color: #007bff;
+  font-size: 2rem;
+  text-align: center; /* Centered subheading */
+}
+
+.home-section p {
+  max-width: 500px; /* Slightly increased max-width for more space */
+  color: #ccc;
+  margin: 0 auto; /* Centered the paragraph */
+  text-align: center; /* Centered text */
+}
+
+/* Profile Image */
+.profile-img {
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto; /* Centers the image */
+}
+
+/* Social Icons */
+.social-icons .mr-3 {
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons .mr-3:hover {
+  color: #0d6efd;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
   .home-section h1 {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 2.5rem;
   }
   
   .home-section h2 {
-    color: #007bff;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
-  
+
   .home-section p {
-    max-width: 400px;
-    color: #ccc;
+    font-size: 1rem; /* Slightly smaller text on mobile */
   }
-  
+
   .profile-img {
-    width: 100%;
-    border-radius: 8px;
+    max-width: 80%; /* Make image slightly smaller on mobile */
   }
-  
-  .social-icons .mr-3 {
-    color: #007bff;
-    cursor: pointer;
+}
+
+/* Large Screen Adjustments */
+@media (min-width: 992px) {
+  .home-section h1 {
+    font-size: 3.5rem; 
   }
-  
-  .social-icons .mr-3:hover {
-    color: #0d6efd;
+
+  .home-section h2 {
+    font-size: 2.2rem;
   }
-  
+
+  .home-section p {
+    font-size: 1.125rem; 
+  }
+}

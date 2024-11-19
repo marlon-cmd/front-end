@@ -1,11 +1,11 @@
-// src/About.js
 import React from 'react';
+import Slidecarousel from './Slidecarousel';
 
 function Hobbies() {
   return (
     <div>
-      <h1>Hobbies</h1>
-      <p>This is where my hobbies goes.</p>
+      <h1>My Hobbies</h1>
+      <Slidecarousel />
     </div>
   );
 }
