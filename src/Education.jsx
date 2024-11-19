@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 
 function Education() {
   return (
-    <div style={{ marginTop: '50px' }}>
+    <div style={{ marginTop: '60px' }}>
       <h3 className="text-center" style={{ marginBottom: '20px' }}>Educational Background</h3>
     <Table striped bordered hover className="text-center" style={{margin: '0 auto', width: '50%'}}>
       <thead>
