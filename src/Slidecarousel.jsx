@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 function Slidecarousel() {
   return (
-    <Carousel  className="d-flex flex-column align-items-center" style={{ width: '90%',maxWidth: '600%', height: 'auto', marginTop: '20px auto', objectFit: 'contain'}}>
+    <Carousel  className="d-flex flex-column align-items-center" style={{ width: '90%',maxWidth: '600%', height: 'auto', marginTop: '40px', objectFit: 'contain'}}>
       <Carousel.Item>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img
