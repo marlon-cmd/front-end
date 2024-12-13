@@ -57,15 +57,16 @@ function About() {
                 width: '171px',
                 height: '180px',
                 objectFit: 'cover',
-                borderRadius: '10px',
+                borderRadius: '10px', 
+                boxShadow: '0px 6px 20px rgba(255, 223, 126, 0.2)'
               }}
               alt="Profile"
             />
           </div>
 
           <div className="text-center">
-            <h1>About Me</h1>
-            <p>Hi! I'm Marlon B. Alba. I graduated in Pasacao National Highschool, I'm a student-athelete. I'm 19 years old, I was born on August 23, 2005. I'm currently studying at Naga College Foundation, Inc and taking bachelor of science in computer science.  </p>
+            <h1 style={{fontFamily: 'Roboto, sans-serif', fontWeight: 'bold'}}>About Me</h1>
+            <p style={{ display: 'flex',color: '#333', justifyContent: 'center', fontWeight: 'bold', fontSize: '17px', fontFamily: 'Roboto, sans-serif', }}>Hi! I'm Marlon B. Alba. I graduated in Pasacao National Highschool, I'm a student-athelete. I'm 19 years old, I was born on August 23, 2005. I'm currently studying at Naga College Foundation, Inc and taking bachelor of science in computer science.  </p>
           </div>
         </Col>
       </Row>

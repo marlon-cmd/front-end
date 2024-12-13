@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+    <Navbar style={{ backgroundImage: 'linear-gradient(to right, #067d68 , #50d5b7 )', // Gradient from left to right
+      color: '#fff'}} variant="dark" expand="lg" fixed="top">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

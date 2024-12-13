@@ -4,7 +4,9 @@ import Slidecarousel from './Slidecarousel';
 function Hobbies() {
   return (
     <div>
-      <h1>My Hobbies</h1>
+      <br></br>
+      <br></br>
+      <h1 style={{ display: 'flex', marginTop: '20px', color: '#333', justifyContent: 'center', fontWeight: 'bold', fontSize: '25px'}}>My Hobbies</h1>
       <Slidecarousel />
     </div>
   );

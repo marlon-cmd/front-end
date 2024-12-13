@@ -1,6 +1,15 @@
+html, body {
+  height: 105%; /* Ensure that the height of html and body takes up the entire viewport */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  background: linear-gradient(135deg, #0ccda3, #c1dcd3 , #e8f5c8); /* Gradient background */
+  color: white; /* Default text color */
+}
+
 /* Main Hero Section */
 .home-section {
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  background-color: #ff5733; /* Fallback color: solid background */
+  background: linear-gradient(135deg, #1a1a2e, #16213e); /* Gradient background */
   color: white;
   padding: 80px 15px; /* Adjusted padding for better spacing on mobile */
 }
