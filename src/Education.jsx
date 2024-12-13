@@ -24,11 +24,11 @@ function Education() {
         href="https://www.google.com/maps/place/Pasacao+Central+School/@13.5137918,123.040113,17z/data=!4m14!1m7!3m6!1s0x33a227b7244a3fb5:0xca59c67846ce4dd2!2sPasacao+Central+School!8m2!3d13.5137866!4d123.0426879!16s%2Fg%2F1q64r12kh!3m5!1s0x33a227b7244a3fb5:0xca59c67846ce4dd2!8m2!3d13.5137866!4d123.0426879!16s%2Fg%2F1q64r12kh?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"  // Google Maps location
         target="_blank"  // Opens in a new tab
        rel="noopener noreferrer"  // Security best practice
-       style={{ textDecoration: 'none', color: '#333' }}>   
+       style={{ textDecoration: 'underline', color: 'black' }}>   
        Pasacao Central School
        </a>
        </p>
-        <p style={{ display: 'flex',marginTop: '-10px', color: '#333', justifyContent: 'center', fontWeight: 'bold', fontSize: '25px' }}>
+        <p style={{ display: 'flex',marginTop: '-10px', color: 'black', justifyContent: 'center', fontWeight: 'bold', fontSize: '25px' }}>
         Year 2011 - 2017 </p>
         </Col>
         <Col>
@@ -39,11 +39,11 @@ function Education() {
         href="https://www.google.com/maps/place/Pasacao+Municipal+High+School/@13.5379893,122.9549225,13z/data=!4m10!1m2!2m1!1spasacao+national+high+school!3m6!1s0x33a22711b069ed15:0x73546700611ae823!8m2!3d13.5242387!4d123.0448841!15sChxwYXNhY2FvIG5hdGlvbmFsIGhpZ2ggc2Nob29skgELaGlnaF9zY2hvb2zgAQA!16s%2Fg%2F11jr59k4zk?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"  // Google Maps location
         target="_blank"  // Opens in a new tab
        rel="noopener noreferrer"  // Security best practice
-       style={{ textDecoration: 'none', color: '#333' }}>   
+       style={{ textDecoration: 'underline', color: 'black' }}>   
        Pasacao National High School
        </a>
        </p>
-        <p style={{ display: 'flex',marginTop: '-10px', color: '#333', justifyContent: 'center', fontWeight: 'bold', fontSize: '25px' }}>
+        <p style={{ display: 'flex',marginTop: '-10px', color: 'black', justifyContent: 'center', fontWeight: 'bold', fontSize: '25px' }}>
         Year 2017 - 2023 </p>
         </Col>
       </Row>
